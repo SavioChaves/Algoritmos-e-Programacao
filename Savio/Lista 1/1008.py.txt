@@ -1,0 +1,10 @@
+#https://www.beecrowd.com.br/judge/pt/problems/view/1008
+
+num_func = int(input())
+hr_trab = int(input())
+val_hr = float(input())
+
+salario = float(hr_trab * val_hr)
+
+print("NUMBER = %d" %num_func)
+print("SALARY = U$ %0.2f" %salario)

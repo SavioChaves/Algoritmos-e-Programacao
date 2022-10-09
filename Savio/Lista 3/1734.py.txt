@@ -1,0 +1,12 @@
+#https://www.beecrowd.com.br/judge/pt/custom-problems/view/1734
+
+n = int(input())
+
+resultado=1
+contador=1
+
+while contador <= n:
+    resultado = resultado * contador
+    contador = contador + 1
+
+print("%i! = %i" %(n, resultado))

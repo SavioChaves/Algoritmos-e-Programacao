@@ -1,0 +1,18 @@
+#https://www.beecrowd.com.br/judge/pt/custom-problems/view/1761
+
+produto = 0 
+numero = 1
+
+while numero != 0:
+    numero = float(input())
+    
+    if numero != 0:
+        produto = produto + numero
+
+valorPago = float(input())
+
+troco = valorPago - produto
+
+print("Total da compra: R$%.2f" %(produto))
+print("Valor pago: R$%.2f" %(valorPago))
+print("Troco: R$%.2f" %(troco))

@@ -1,0 +1,16 @@
+#https://www.beecrowd.com.br/judge/pt/custom-problems/view/1760
+
+somaIdade = 0
+mediaIdade = 0
+kg = 0
+
+for p in range (1, 5):
+    idade = int(input())
+    peso = float(input())
+    somaIdade = somaIdade + idade
+    if peso > 90:
+        kg = kg + 1
+mediaIdade = somaIdade / 4
+
+print("Qtd pessoas > 90 kg: %.i" %(kg))
+print("Idade média: %.2f" %(mediaIdade))
